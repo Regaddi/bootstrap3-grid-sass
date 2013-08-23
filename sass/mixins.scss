@@ -22,6 +22,12 @@
   }
 }
 
+@mixin box-sizing($box) {
+  -webkit-box-sizing: $box;
+  -moz-box-sizing: $box;
+  box-sizing: $box;
+}
+
 // Grid System
 // -----------
 
@@ -87,7 +93,7 @@
 }
 
 // Generate the medium columns
-@mixin make-md-column($columns; $gutter: $grid-gutter-width) {
+@mixin make-md-column($columns, $gutter: $grid-gutter-width) {
   position: relative;
   // Prevent columns from collapsing when empty
   min-height: 1px;

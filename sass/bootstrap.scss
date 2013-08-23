@@ -12,5 +12,10 @@
 @import "variables.scss";
 @import "mixins.scss";
 
+// Reset
+@import "normalize.scss";
+@import "print.scss";
+
 // Core CSS
+@import "scaffolding.scss";
 @import "grid.scss";
