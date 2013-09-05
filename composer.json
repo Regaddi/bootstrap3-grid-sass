@@ -1,0 +1,11 @@
+{
+    "name": "regaddi/bootstrap3-grid-sass",
+    "description": "Makes the Bootstrap3 responsive grid system available for SASS",
+    "keywords": ["frontend", "scss"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Brandt"
+        }
+    ]
+}
